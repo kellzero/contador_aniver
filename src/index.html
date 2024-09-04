@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador do Meu Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                O Aniversário de Kelvin será em <br> <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Setor sul - Trindade - Goiás
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Presentes</b>
+                        Obrigatorio
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data</b>
+                        24/07/2025
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--show">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Show ao vivo</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, natus quasi vel quidem laborum illo cum ad cupiditate totam error ullam dolor voluptate nihil rem velit assumenda autem laudantium aspernatur.</p>
+            </div>
+            <img class="event__image" src="./images/show ao vivo.jpg" alt="show">
+        </div>
+    </section>
+    <section class="event event--buffet event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Buffet</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, natus quasi vel quidem laborum illo cum ad cupiditate totam error ullam dolor voluptate nihil rem velit assumenda autem laudantium aspernatur.</p>
+            </div>
+            <img class="event__image" src="./images/buffet.jpg" alt="comida">
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
